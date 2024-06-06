@@ -9,11 +9,13 @@
 <body>
     <h1>Cadastro de Funcionário</h1>
     <form id="cadastroForm">
+        <label for="codigo">Código do Scanner:</label>
+        <input type="text" id="codigo" name="codigo" required>
         <label for="nome">Nome:</label>
         <input type="text" id="nome" name="nome" required>
         <button type="submit">Cadastrar</button>
     </form>
-    <div id="messages"></div>
+    <div id="message"></div>
 
     <script src="script.js"></script>
 </body>
